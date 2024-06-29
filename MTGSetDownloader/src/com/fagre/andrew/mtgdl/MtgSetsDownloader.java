@@ -11,7 +11,10 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 import ssl.TrustedCertficatesStore;
-
+/**
+ * @author andrew fagre
+ * Class for collecting all of the card names from particular MAgic The Gathering sets.
+ */
 public class MtgSetsDownloader {
 	static String version ="2.0" ;
 	static Logger myLogger = Logger.getLogger("logging.properties");
